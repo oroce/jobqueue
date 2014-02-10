@@ -1,0 +1,37 @@
+{
+  "name": "zeller",
+  "version": "0.0.0",
+  "description": "Job queue system for node",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oroce/jobqueue.git"
+  },
+  "keywords": [
+    "job",
+    "queue",
+    "task",
+    "cron",
+    "schedule",
+    "worker"
+  ],
+  "contributors": [{
+    "name": "Bence Dányi",
+    "email": "madbence@gmail.com"
+  }],
+  "author": "Purpose Industries <dev@purposeindustries.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oroce/jobqueue/issues"
+  },
+  "dependencies": {
+    "genzen": "~0.0.2"
+  }
+}
